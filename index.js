@@ -1,4 +1,4 @@
-let formData = {
+function submitData() = {
   dogName: "Byron",
   dogBreed: "Poodle"
 };
