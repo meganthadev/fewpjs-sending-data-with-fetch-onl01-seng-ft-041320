@@ -18,4 +18,8 @@ fetch("http://localhost:3000/dogs", configObj)
   })
   .then(function(object) {
     console.log(object);
+  })
+  .catch(function(error) {
+    alert("Bad things! Ragnarők!");
+    console.log(error.message);
   });
