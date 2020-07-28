@@ -12,7 +12,7 @@ function submitData(name, email) {
     console.log(object);
   })
   .catch(function(error) {
-    alert("Bad things! Ragnarők!");
+    alert("Error!");
     console.log(error.message);
   });
 };
