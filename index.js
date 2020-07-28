@@ -6,5 +6,8 @@ configurationObject = {
     "Content-Type": "application/json",
      "Accept": "application/json"
   },
-  body:
+  body: JSON.stringify({
+    dogName: "Byron",
+    dogBreed: "Poodle"
+  })
 };
