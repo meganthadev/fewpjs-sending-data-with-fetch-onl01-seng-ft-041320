@@ -1,5 +1,8 @@
 fetch(destinationURL, configurationObject);
 
 configurationObject = {
-  method: "POST"
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json"
+  }
 };
