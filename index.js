@@ -1,6 +1,5 @@
-function submitData() = {
-  dogName: "Byron",
-  dogBreed: "Poodle"
+function submitData(name, email) {
+ 
 };
  
 let configObj = {
